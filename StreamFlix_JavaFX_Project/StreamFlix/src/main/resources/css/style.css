@@ -1,0 +1,16 @@
+/* Global stylesheet - PORTION: App shell & UI theme (Retselisitsoe) */
+
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: #141414;
+}
+
+/* Page scroll bar: thin, dark and unobtrusive (the page itself is a ScrollPane, not a Button) */
+.scroll-pane { -fx-background-color: #141414; -fx-background: #141414; }
+.scroll-pane > .viewport { -fx-background-color: #141414; }
+.scroll-bar:vertical { -fx-background-color: transparent; -fx-pref-width: 10; }
+.scroll-bar .track { -fx-background-color: transparent; -fx-border-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #3a3a3a; -fx-background-radius: 6; }
+.scroll-bar .thumb:hover { -fx-background-color: #E50914; }
+.scroll-bar .increment-button, .scroll-bar .decrement-button { -fx-pref-height: 0; -fx-padding: 0; }
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow { -fx-padding: 0; -fx-shape: " "; }

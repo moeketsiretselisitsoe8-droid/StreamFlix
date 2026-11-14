@@ -1,0 +1,30 @@
+# StreamFlix movie catalogue
+# Format:  genre | title | year | trailerId | backupTrailerId
+# trailerId / backupTrailerId = the 11-character code after  watch?v=  in a YouTube link.
+# Lines starting with # are ignored. Nothing is downloaded - trailers are streamed from YouTube.
+# To add a movie: add one line. To add a category: use a new genre name (needs 8+ movies).
+# If a trailer ever stops working (owner disabled embedding / video removed), swap the IDs here.
+Action|The Dark Knight|2008|EXeTwQWrcwY|kmJLuwP3MbY
+Action|Mad Max: Fury Road|2015|hEJnMQG9ev8|JziKtK3uZZ4
+Action|John Wick|2014|RRUdo1bcrhU|qiAJ0J40h8w
+Action|Avengers: Endgame|2019|TcMBFSGVi1c|6n2r0oNtwdg
+Action|Top Gun: Maverick|2022|qSqVVswa420|xL3CTra4bS4
+Action|Gladiator|2000|0BLZbrLogTo|MfM79O9O2MA
+Action|Die Hard|1988|2TQ-pOvI6Xo|POH4hqWRZ-g
+Action|Mission: Impossible - Fallout|2018|XiHiW4N7-bo|wb49-oV0F78
+Sci-Fi|Inception|2010|YoHD9XEInc0|B4IXWfyrrhc
+Sci-Fi|Interstellar|2014|2LqzF5WauAw|bE_kndPHaQ4
+Sci-Fi|The Matrix|1999|vKQi3bBA1y8|oqOcr8MBT38
+Sci-Fi|Dune|2021|NKXYtglYqm0|sBHtW2sECHU
+Sci-Fi|Blade Runner 2049|2017|gCcx85zbxz4|Mjiqa-PWGQY
+Sci-Fi|Avatar|2009|4NaNCmkE5Ls|6ziBFh3V1aM
+Sci-Fi|Arrival|2016|tFMo3UJ4B4g|bJDFjvKkynI
+Sci-Fi|Edge of Tomorrow|2014|vw61gCe2oqI|yUmSVcttXnI
+Animation|Toy Story|1995|lHg-HPpKpYE|CxwTLktovTU
+Animation|Shrek|2001|z67EAYY8rk4|BVevJSJ3rhE
+Animation|Finding Nemo|2003|Xi3xJqvvJB4|WpOXa4uqqfA
+Animation|The Lion King|1994|eHcZlPpNt0Q|kDHD1CXwSnY
+Animation|Zootopia|2016|jWM0ct-OLsM|bY73vFGhSVk
+Animation|Coco|2017|xlnPHQ3TLX8|Rvr68u6k5sI
+Animation|Up|2009|ORFWdXl_zJ4|CErk7KcqKX4
+Animation|Kung Fu Panda|2008|PXi3Mv6KMzY|V8UWNObRMPQ
